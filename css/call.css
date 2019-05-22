@@ -1,0 +1,21 @@
+#header .navbar .nav_box{
+    width: 100%;
+}
+#header .navbar .nav_box .logo .btn{
+    display: block;
+    float: right;
+    margin-right: 30px;
+}
+.nav_txt {
+    width: 100%;
+    display: none;
+}
+.nav_txt .nav_top li{
+    float: none;
+}
+#header .navbar .nav_box .logo{
+    width: 100%;
+}
+.nav_top li {
+    padding-bottom: 0px;
+}
