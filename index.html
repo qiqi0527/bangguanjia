@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>榜管家</title>
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" media="(max-width:1000px) and (min-width:600px)" href="css/ipad.css">
     <link rel="stylesheet" media="(max-width:765px)" href="css/call.css">
 </head>
 <body>
+    <!-- 头部 -->
     <header id="header">
         <nav class="navbar">
             <div class="nav_box">
@@ -42,7 +43,35 @@
             </div>
         </nav>
     </header>
+    <!-- 轮播 -->
+    <section>
+        <ul class="bg">
+            <li></li>
+            <li style="background-image:url('imgs/u3.jpg')"></li>
+            <li style="background-image:url('imgs/u5.jpg')"></li>
+            <li style="background-image:url('imgs/u7.jpg')"></li>
+        </ul>
+        <div class="index_img_an">
+            <i class="on"></i>
+            <i></i>
+            <i></i>
+            <i></i>
+        </div>
+        <span class="next">
+            <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
+            </svg>
+        </span>
+        <span class="prew"> 
+            <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
+            </svg>    
+        </span>
+    </section>
     <script src="js/jquery-3.2.1.js"></script>
+    <!-- 下拉 -->
     <script src="js/slideDown.js"></script>
+    <!-- 轮播 -->
+    <script src="js/banner.js"></script>
 </body>
 </html>
