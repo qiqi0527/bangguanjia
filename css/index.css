@@ -77,6 +77,9 @@
     padding-bottom: 23px;
     float: left;
 }
+.nav_top li a:hover{
+    color: aqua;
+}
 .navbar-brand {
     float: left;
     padding: 15px 15px;
