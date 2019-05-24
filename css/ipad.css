@@ -21,19 +21,32 @@
     margin-left: 0;
 }
 /* banner 轮播*/
-section{
+#lunbo{
     width: 100%;
     height: 429px;
     overflow: hidden;
     position: relative;
 }
-section .bg li{
+#lunbo .bg li{
     float: left;
     width: 10%;
     height: 429px;
     background: url('../imgs/u1.jpg') no-repeat center top;
     background-size: 100% 429px;
 }
-section .index_img_an{
+#lunbo .index_img_an{
     margin: 390px auto;
+}
+/* 产品方案 */
+#shopping_fn .sp_box{
+    width: 80%;
+}
+#shopping_fn .title_bottom_content .md_sm_xs {
+    width: 43%!important;
+}
+#shopping_fn .sp_box{
+    width: 80%;
+}
+#shopping_fn .title_bottom_content .md_sm_xs {
+    width: 43%!important;
 }
