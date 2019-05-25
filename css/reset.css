@@ -14,7 +14,7 @@ body { font-size:12px; font-family:"微软雅黑"; }
 .clear { zoom:1; }   /* 兼容IE浏览器清除浮动 */
 .clear:after { content:''; display:block; clear:both; }
 .fl { float:left; } /* 左浮动，与右浮动 */
-.fr { float:right; }
+.fr { float:right;text-align: center}
 .gradient {/*  线性渐变兼容写法 */
 	background:-moz-linear-gradient(top, #FFFFFF, #f8f8f8);
 	background:-webkit-linear-gradient(top, #FFFFFF, #f8f8f8);
