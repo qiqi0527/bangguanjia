@@ -1,0 +1,34 @@
+.sp_box{
+    width: 1250px;
+    height: 1040px;
+    margin: 0 auto;
+}
+.banner img{
+    width: 100%;
+    height: auto;
+}
+.row1{
+    width: 1250px;
+}
+.row1 ul{
+    width: 1250px;
+}
+.row1 ul li{
+    float: left;
+    width: 385px;
+    height: 385px;
+    margin-left: 25px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+.row1 ul li:hover{
+    box-shadow: 10px 10px 5px #888888;
+}
+.row1 ul li div{
+    margin-left: 20px;
+}
+.row1 ul li div img{
+    width: 345px;
+    height: 250px;
+    margin-bottom: 25px;
+}
